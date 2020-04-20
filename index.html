@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Designer gráfico">
+      <meta name="author" content="JOÃO BARBOZA">
+      <title>JOÃO BARBOZA</title>
+  	  <link href="css/main.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon (1).ico">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  </head><!--/head-->
+
+  <body>
+      <section class="header-site"> <!---cabeçalho-->
+          <div class="header-top">
+              <div id="menu">
+                  <div>
+                      <ul>
+                          <li><a href="#">HOME</a></li>
+                          <li><a href="#sobre">SOBRE MIM</a></li>
+                          <li><a href="#titulo">PORTFÓLIO</a></li>
+                          <li><a href="mailto:joaoplbarboza@hotmail.com">CONTATO</a></li>
+                      </ul>
+                  </div>
+                  <div class="header-img">
+                      <img src="images/frente_paralax.png" style="width: 100%">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="sobre">
+          <div class="perfil">
+              <h2 id="sobre">SOBRE MIM</h2>
+              <img src="images/perfil.png"/ class="perfil-foto">
+          </div>
+          <div id="midias">
+              <ul>
+                  <li><a href="https://www.behance.net/joaopebarboza"> <img src="images/behance.png" alt="#"></a></li>
+                  <li><a href="https://www.instagram.com/cria_jao/"> <img src="images/instagram.png" alt="#"></a></li>
+                  <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-luis-barboza-81b91993/"> <img src="images/linkedin.png" alt="#"></a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=5517981122753"> <img src="images/whats.png" alt="#"></a></li>
+              </ul>
+          </div>
+          <div class="texto">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <br>
+                   mollit anim id est laborum.</h2>
+          </div>
+      </section>
+
+      <section class="footer">
+          <div>
+
+          </div>
+      </section>
+
+      <section class="portfolio">
+          <div class="pg-portfolio">
+              <h2 id="titulo">PORTFÓLIO</h2>
+          </div>
+          <div class="aba1">
+              <ul>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+              </ul>
+          </div>
+          <div class="aba2">
+              <ul>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+                  <li><a href="#"> <img src="images/mock.png" alt="#"></a></li>
+              </ul>
+          </div>
+
+      </section>
+
+      <section class="footer">
+          <div>
+              <div class="direitos">
+                  <h2>Desenvolvido por João Barboza. Todos os direitos reservados.</h2>
+              </div>
+          </div>
+      </section>
+
+      <div class="box">
+          <a href="mailto:joaoplbarboza@hotmail.com"><img src="images/envelope.png" alt="#" class="envelope"></a>
+      </div>
+
+      <!--Botão voltar ao topo-->
+      <div id="Topo">
+	       <a href="#" id="voltarTopo"><img src="images/topo.png"</a>
+      </div>
+
+      <!--Script topo-->
+      <script type="text/javascript">
+      $(document).ready(function() {
+	       $('#voltarTopo').click(function(){
+		         $('html, body').animate({scrollTop:0}, 'slow');
+		           return false;
+	       });
+      });
+      </script>
+  </body>
+</html>
