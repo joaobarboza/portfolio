@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/**** ESTILO DO MENU ***/
+
+#menu ul {
+    margin: 0;
+    list-style: none;
+    background-color: #ff6600;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    color: #003399
+}
+
+/**** ESTILO HEADER ***/
+
+.header-site {
+    text-align: center;
+}
+
+.header-img {
+    height: 605px;
+    background-image: url(../images/paralax.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/**** ESTILO SOBRE ***/
+
+
+
+.perfil {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sobre {
+    background-color: #003399;
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+}
+
+.perfil-foto {
+    size: 200px;
+}
+
+
+#midias ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#midias ul li {
+    display: inline;
+
+}
+
+#midias ul li a {
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.texto {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**** ESTILO DO PORTFÓLIO ***/
+
+.portfolio {
+    text-align: center;
+    color: #003399;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #ff6600;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+
+}
+
+
+/**** ESTILO DAS FOTOS ***/
+
+.aba1 ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.aba1 ul li {
+    display: inline;
+}
+
+.aba1 ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.aba1 ul li a img {
+    width: 250px    ;
+}
+
+.aba1 ul li a:hover {
+    color: #003399
+}
+
+
+.aba2 ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.aba2 ul li {
+    display: inline;
+}
+
+.aba2 ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.aba2 ul li a img {
+    width: 250px ;
+}
+
+.aba2 ul li a:hover {
+    color: #003399
+}
+
+
+/**** ESTILO RODAPÉ ***/
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.direitos {
+    color: #ff6600;
+    background-color: black;
+    padding: 15px;
+    font-size: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*** Botão voltar ao topo ***/
+#Topo{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
+/**** ESTILO contato ***/
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    left: 1rem;
+    top: 1rem;
+    background-color: green;
+    margin: auto;
+    text-align: center;
+}
+
+.envelope {
+    margin-top: 35px;
+}
